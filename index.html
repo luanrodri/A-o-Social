@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Apresentação de Projeto</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("img/background.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    
+    header {
+      background: linear-gradient(to right, #333333, #000);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    section {
+      padding: 50px;
+      background-color: rgba(255, 255, 255, 0.3); /* Fundo branco com 30% de opacidade */
+      
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    h1 {
+      font-size: 24px;
+    }
+    
+    h2 {
+      font-size: 20px;
+    }
+    
+    .team-members {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+      justify-items: center;
+      margin-top: 30px;
+    }
+    
+    .team-member img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+    
+    .contact-form button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .project-info {
+      text-align: center;
+    }
+    
+    .mission {
+      
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.3); /* Fundo branco com 50% de opacidade */
+    }
+    
+    .mission h2 {
+      margin-top: 0;
+    }
+    
+    .mission p {
+      margin-bottom: 0;
+    }
+    
+    .contact {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+    }
+    
+    .contact-info {
+      
+      padding: 30px;
+    }
+    
+    .contact-form {
+      padding: 30px;
+    }
+    
+    .project-details {
+            padding: 30px;
+    }
+    
+    .project-details h2 {
+      margin-top: 0;
+    }
+    
+    .project-details p {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ação Social</h1>
+    
+  </header>
+  
+  <section>
+    <div class="container">
+      <h2>Quem somos</h2>
+      
+      <div class="team-members">
+        <div class="team-member">
+          <img src="img/262594147_118285530773569_6494976518359180943_n.jpg" alt="Integrante 1">
+          <h3>Luid Lellis</h3>
+        </div>
+        
+        <div class="team-member">
+          <img src="img/328787598_2367090700127173_8630758762936907010_n.jpg" alt="Integrante 2">
+          <h3>Alexanser Oliveira</h3>
+        </div>
+        
+        <div class="team-member">
+          <img src="img/file.enc" alt="Integrante 3">
+          <h3>Luan Rodrigues</h3>
+        </div>
+        
+        <!-- Adicione mais integrantes aqui -->
+      </div>
+    </div>
+  </section>
+  
+  <section class="mission">
+    <div class="container">
+      <h2>Missão</h2>
+      
+      <p>Adicione a missão aqui.</p>
+    </div>
+  </section>
+  
+  <section class="contact">
+    <div class="container">
+      <div class="contact-info">
+        <h2>Contato</h2>
+        
+        <p>Coloque aqui as informações de contato do projeto.</p>
+        
+        <ul>
+          <li>Endereço: Rua Exemplo, 123</li>
+          <li>Telefone: (00) 1234-5678</li>
+          <li>E-mail: exemplo@example.com</li>
+        </ul>
+      </div>
+      
+      <div class="contact-form">
+        <h2>Entre em contato</h2>
+        
+        <form>
+          <input type="text" placeholder="Nome" required>
+          <input type="email" placeholder="E-mail" required>
+          <textarea placeholder="Mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <section class="project-details">
+    <div class="container">
+      <h2>Detalhes do Projeto</h2>
+      
+      <p>Coloque aqui os detalhes do projeto que você está apresentando.</p>
+    </div>
+  </section>
+</body>
+</html>
